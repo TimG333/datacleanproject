@@ -5,7 +5,6 @@ TrainSubjects <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 
 #Load packages used in this
 library("reshape2", lib.loc="/Library/Frameworks/R.framework/Versions/3.1/Resources/library")
-library("gdata", lib.loc="/Library/Frameworks/R.framework/Versions/3.1/Resources/library")
 
 #Flag if the number of rows aren't lining up in training data sets
 if(!(nrow(TrainActivityLabels)==nrow(TrainDataSet) & nrow(TrainSubjects))){
