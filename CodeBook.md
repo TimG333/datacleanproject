@@ -100,17 +100,17 @@ Variables
 Procedures
 ----------
 
-*Training data is loaded into R via read.table
-*Length of data is checked, it will run without lining up properly, but it will warn you
-*Activity list given lables via gsub the numbers for the activity name
-*Subject list given variable name of Subject
-*Subject list given new variable for 'training' subject
-*Features list is loaded and the names are purged of problematic characters
-*Features list assigned to names of data set
-*All training data is combined to create a data set of training with all variables
-*Process repeated for test data
-*Data is fused together for total training and test
-*Summary data produced by gtting only the mean and standard deviation data variables along with subject and activity
-*Data is melted with subject and activity as ids
-*Molten data is recast with the average of variables by subject by activity
-*Recast data set is outputted as a tab deliminated file
+* Training data is loaded into R via read.table
+* Length of data is checked, it will run without lining up properly, but it will warn you
+* Activity list given lables via gsub the numbers for the activity name
+* Subject list given variable name of Subject
+* Subject list given new variable for 'training' subject
+* Features list is loaded and the names are purged of problematic characters
+* Features list assigned to names of data set
+* All training data is combined to create a data set of training with all variables
+* Process repeated for test data
+* Data is fused together for total training and test
+* Summary data produced by gtting only the mean and standard deviation data variables along with subject and activity
+* Data is melted with subject and activity as ids
+* Molten data is recast with the average of variables by subject by activity
+* Recast data set is outputted as a tab deliminated file
